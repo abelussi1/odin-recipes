@@ -1,4 +1,4 @@
-#chocolatecake {
+#chocolatecakeheader {
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
@@ -8,4 +8,23 @@
 
 #chocolatecakepic {
     margin-left: 18px;
+}
+
+#ccfigcap {
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#gumboheader {
+    text-align: center;
+    font-size: large;
+}
+
+#gumbopic {
+    margin-left: 120px;
+}
+
+.gumbobody {
+    width: 600px;
+    margin: 0 auto;
 }
